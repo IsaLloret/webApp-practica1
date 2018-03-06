@@ -1,0 +1,27 @@
+.web-footer {
+    box-sizing: border-box;
+    background: fade-out($color-dead-palette, 0.15);//No me funciona
+    padding: 15px;
+    color: $color-polished-pebbles;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+
+    transition: background 0.2s;
+    &:hover {
+        background: $color-dead-palette;
+    }
+    
+    .web-title {
+        font-size: $font-size-large;
+        font-weight: bold;
+        text-transform: uppercase; //mayusculas titulo        
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-polished-pebbles;
+        padding-right: 15px;
+    }
+}

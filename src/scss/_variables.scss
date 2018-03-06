@@ -1,0 +1,40 @@
+//Font families
+$main-font-family: 'Muli', sans-serif;
+$title-font-family: 'Poppins', sans-serif;
+$body-font-family: $main-font-family;
+
+//Font sizes
+$font-size-base: 15px;
+$font-size-small: $font-size-base - 5px;
+$font-size-large: $font-size-base + 5px;
+$font-size-h1: $font-size-base + 15px;
+$font-size-h2: $font-size-base + 12px;
+$font-size-h3: $font-size-base + 9px;
+$font-size-h4: $font-size-base + 6px;
+$font-size-h5: $font-size-base + 3px;
+$font-size-h6: $font-size-base;
+
+//Base colors
+$color-musimusi: rgb(26, 26, 26);
+$color-dead-palette: #F4FAD2;
+$color-wasabi: rgb(68, 140, 207);
+$color-polished-pebbles: rgba(145, 160, 60, 0.897);
+$color-holding-you: rgba(255, 255, 255, 0.945);
+
+//Main components colors
+$main-text-color: $color-musimusi;
+$links-color: $color-wasabi;
+
+//Responsive
+$mobile-portrait-width: 414px;
+$mobile-landscape-width: 767px;
+$tablet-portrait-width: $mobile-landscape-width + 1;
+$tablet-landscape-width: 1024px;
+
+//Form colors
+$form-input-border-color: $color-musimusi;
+$form-input-outline-color: $color-musimusi;
+$form-button-font-color: $color-wasabi;
+$form-button-background-color: $color-musimusi;
+$form-error-font-color: $color-dead-palette;
+$form-error-background-color: $color-wasabi;
